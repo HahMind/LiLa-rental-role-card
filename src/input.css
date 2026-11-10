@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@source inline("text-[4px] text-[5px] text-[6px] text-[7px] text-[8px] text-[9px] text-[10px] text-[11px] text-[12px] text-gray-100 text-gray-400");
+
+@theme {
+  --color-lila-taupe: #896e53;
+  --color-lila-beige: #dbb285;
+  --color-lila-cream: #efdbba;
+  --color-lila-bg-light: #fdfbf7;
+  --font-prompt: "Prompt", sans-serif;
+}

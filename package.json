@@ -1,0 +1,14 @@
+{
+  "name": "lila-rental-role-card",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "npm run build:css",
+    "build:css": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/output.css --minify",
+    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.17",
+    "tailwindcss": "^4.1.17"
+  }
+}
